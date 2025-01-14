@@ -1,0 +1,38 @@
+@charset "UTF-8 "
+*{ font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    height: 100%;
+}
+body{ background-image: linear-gradient(to top, rgb(208, 120, 219) , rgb(222, 168, 243), rgb(215, 184, 230) ); 
+    background-attachment: fixed;); }
+    main{ 
+        background-color: rgba(255, 255, 255, 0.856);
+        width: 600px;
+        padding: 10px;
+        margin: auto; 
+        border-radius: 5%;
+        box-shadow: 5px 5px 15px rgba(199, 86, 255, 0.493);
+
+
+    }
+    h1{ font-size: 25px; 
+     font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;} 
+     
+    h2{ font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px; 
+        text-align: center;
+
+    }
+p{
+    text-align: justify;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-indent: 25px;
+    text-align: center;
+ }
+ /* agora so da pra fazer comen assim 
+ shorthand 
+ font italic bolder 3 em ou 3px work sans san serif  a ordem e essa font style font weight font size e font family pra dar certo o codigo */
+ 
