@@ -1,11 +1,20 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Sriracha&display=swap');
+
+
 *{
     margin: 0%;
     padding: 0%;
+    
  }
+ :root{ --fonte1:sricha; 
+
+ }
+ 
  html, body {
     background-color: darkgray;
     min-height: 100vh;
+    font-family: var(--fonte1);
    }
   
   header{
@@ -27,18 +36,45 @@
 section { 
     padding-top: 10vh;
     padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte1);
+}
+section>p{
+    padding-bottom: 2em;
 }
   section.normal { 
     background-color: white;
     color: black;
   }
   section.imagem {
+
     background-color: rgb(51, 51, 51);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.438);
+    background-attachment: fixed;
+
+
    }
  section.imagem>p{ 
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.288);
+
+    
+  }
+  section#img1{
+    background-image:url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    
+    
+  }
+  section#img2{
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+
   }
   footer{ 
     background-color: black;
